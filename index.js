@@ -13,10 +13,13 @@ var btnMinusElement = document.querySelector('button[name=btn-minus]');
 var btnTimesElement = document.querySelector('button[name=btn-times]');
 var btnDivisionElement = document.querySelector('button[name=btn-division]');
 var btnCommaElement = document.querySelector('button[name=btn-comma]');
-var btnEqualElement = document.querySelector('button[name=btn-equals]');
+var btnEqualElement = document.querySelector('button[name=btn-equal]');
+var btnClearElement = document.querySelector('button[name=btn-clear]');
 var resultElement = document.querySelector('p[name=btn-result]');
 
-btn1Element.onclick = function mostrar() {
-    console.log('Deu certo');
+
+
+btn7Element.onclick = function mostrarValor() {
+    resultElement.innerHTML = resultElement.innerHTML + btn7Element.value;
 }
 
