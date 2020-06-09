@@ -20,6 +20,6 @@ var resultElement = document.querySelector('p[name=btn-result]');
 
 
 btn7Element.onclick = function mostrarValor() {
-    resultElement.innerHTML = resultElement.innerHTML + btn7Element.value;
+    resultElement.textContent = resultElement.textContent + btn7Element.value;
 }
 
